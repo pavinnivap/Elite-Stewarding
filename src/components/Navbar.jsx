@@ -48,7 +48,7 @@ const Navbar = ({ setView, currentView = 'home' }) => {
           className="flex items-center gap-3 cursor-pointer"
         >
           <img src={logo} alt="Elite Stewarding Logo" className="h-12 w-auto object-contain" />
-          <span className={`text-xl font-extrabold tracking-wider hidden sm:block ${isSolidNavbar ? 'text-primary' : 'text-white'}`}>
+          <span className={`text-sm sm:text-xl font-extrabold tracking-wider ${isSolidNavbar ? 'text-primary' : 'text-white'}`}>
             ELITE <span className="text-secondary">STEWARDING</span>
           </span>
         </motion.div>
